@@ -11,15 +11,13 @@ const perguntas = [
             {
                 texto: "Isso é assustador!",
                 afirmacao: [
-                "No início ficou com medo do que essa tecnologia poderia fazer.",
-                ""
+                "No início ficou com medo do que essa tecnologia poderia fazer."
             ]
             },
             {
                 texto: "Isso é maravilhoso!",
                 afirmacao: [
-                "Quis saber como usar a IA no seu dia-a-dia.",
-                ""
+                "Quis saber como usar a IA no seu dia-a-dia."
                 ]
             }           
             
@@ -30,11 +28,16 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "A inteligência artificial transforma o mercado de trabalho ao automatizar tarefas rotineiras, exigindo das pessoas o desenvolvimento de habilidades cada vez mais criativas e estratégicas."
+                ]
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao: [
+                    "Na área da saúde, sistemas inteligentes aceleram diagnósticos e personalizam tratamentos, aumentando a precisão médica e a expectativa de vida dos pacientes."
+
+                ]
             }
         ]
     },
@@ -43,11 +46,17 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "No cotidiano, assistentes virtuais e algoritmos de recomendação otimizam o tempo das pessoas, simplificando desde a organização de tarefas até a escolha de entretenimento."
+
+                ]
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "A educação torna-se mais inclusiva e personalizada com plataformas que adaptam os métodos de ensino ao ritmo e às necessidades específicas de cada estudante."
+
+                ]
             }
             
         ]
@@ -57,11 +66,17 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "A expansão da IA levanta debates éticos cruciais sobre a privacidade de dados pessoais, transparência e o uso responsável da tecnologia."
+
+                ]
             },
             {
                 texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "Ferramentas assistivas baseadas em IA promovem a acessibilidade, permitindo que pessoas com deficiência interajam com o mundo de forma mais autônoma."
+
+                ]
             }
             
         ]
@@ -71,11 +86,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "A análise preditiva de dados auxilia no combate às mudanças climáticas e no planejamento de cidades mais sustentáveis e eficientes."
+
+                ]
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "A automação e a robótica inteligente reduzem falhas operacionais na indústria, tornando processos mais seguros e produtivos para os trabalhadores."
+
+                ]
             }
             
             
